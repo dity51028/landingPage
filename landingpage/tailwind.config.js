@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/*/.{html,js,jsx}"],
   theme: {
     container:{
       padding:{
@@ -18,10 +18,11 @@ module.exports = {
       secondary:'Jost'
     },
     backgroundImage:{
-      hero:'url(/src/assets/hero/bg.jpg)'
-
+      hero:'url(/src/assets/hero/bg.jpg)',
+      grid:'url(/src/assets/grid.png)',
+      logo:'url(/src/assets/logo.svg'
     },
-    extend:{
+    extend: {
       colors:{
         primary:{
           DEFAULT:'#292f36',
@@ -34,7 +35,7 @@ module.exports = {
           hover:'#b88c5d'
         }
       }
-    }
+    },
   },
   plugins: [],
 }
