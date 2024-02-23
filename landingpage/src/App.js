@@ -4,9 +4,9 @@ import Hero from "./components/Hero"
 
 const App = () => {
   return (
-    <main className='max-w-[1920px] mx-auto bg-red overflow-hidden'>
+    <main className=' text-white overflow-hidden'>
         <Hero/>
-        <div className="h-[3000px]"> </div>
+        <div className='h-[7000px]'></div>
        </main >
 
  
