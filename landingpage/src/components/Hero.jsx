@@ -12,7 +12,8 @@ const Hero = () => {
           ipsam ullam vel dolorem laboriosam excepturi fuga cupiditate quo maiores consequatur!</p>
           <div className='bg-primary px-6 py-4 flex flex-row gap-4 rounded-[18px]'>
             <button>Get free estimation</button>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(255,255,255,1)"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(255,255,255,1)">
+              <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
           </div>
           </div>
 

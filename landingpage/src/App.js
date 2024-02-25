@@ -1,11 +1,14 @@
 import Nav from "./components/Nav"
 import Hero from "./components/Hero"
+import Steps from "./components/Steps"
 
 
 const App = () => {
   return (
     <main className=' text-white overflow-hidden'>
+        <Nav/>
         <Hero/>
+        <Steps/>
         <div className='h-[7000px]'></div>
        </main >
 
