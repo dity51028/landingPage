@@ -8,7 +8,7 @@ const Nav = () => {
   const [isOpenNav,setIsOpenNav] = useState(false)
   return (
     
-    <div className='h-[90px] flex items-center text-primary md:justify-around '>
+    <div className='h-[90px] flex items-center text-primary md:justify-around sticky'>
       <img src={logo} alt='logo img' className='h-[40px] w-[240px]'/>
      
      {(!isOpenNav) ?

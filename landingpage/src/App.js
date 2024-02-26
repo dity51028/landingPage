@@ -5,7 +5,7 @@ import Steps from "./components/Steps"
 
 const App = () => {
   return (
-    <main className=' text-white overflow-hidden'>
+    <main className='bg-grid bg-contain text-white overflow-hidden'>
         <Nav/>
         <Hero/>
         <Steps/>

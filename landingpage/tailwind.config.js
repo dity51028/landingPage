@@ -34,7 +34,8 @@ module.exports = {
     backgroundImage:{
       hero:'url(/src/assets/hero/bg.jpg)',
       grid:'url(/src/assets/grid.png)',
-      logo:'url(/src/assets/logo.svg'
+      logo:'url(/src/assets/logo.svg',
+     
     },
     extend: {
       colors:{
